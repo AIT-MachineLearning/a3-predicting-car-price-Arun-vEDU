@@ -3,3 +3,4 @@ mlflow
 matplotlib
 scikit-learn
 imbalanced-learn
+seaborn

@@ -8,16 +8,12 @@ Original file is located at
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.preprocessing import StandardScaler
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
 import time
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
