@@ -2,4 +2,4 @@ numpy
 mlflow
 matplotlib
 scikit-learn
-dill
+imblearn

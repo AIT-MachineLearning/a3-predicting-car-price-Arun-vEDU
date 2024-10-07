@@ -2,3 +2,4 @@ numpy
 mlflow
 matplotlib
 scikit-learn
+imblearn
