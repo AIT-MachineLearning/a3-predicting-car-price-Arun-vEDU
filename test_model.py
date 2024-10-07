@@ -1,6 +1,5 @@
 import unittest
 import numpy as np
-import dill
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
 import pandas as pd
