@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from deploy import LogisticRegression  # Replace with the actual module name
+from test_copy import LogisticRegression  # Replace with the actual module name
 
 class TestLogisticRegression(unittest.TestCase):
     def setUp(self):
