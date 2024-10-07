@@ -15,3 +15,7 @@ Finally, the best f1 score model is staging in mlflow.
 test_model.py - This script is for run the Unit tests.
 
 app.py - This script for dash application.
+
+a3_docker - A file folder with docker image.
+
+.
