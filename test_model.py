@@ -1,7 +1,10 @@
 import unittest
 import numpy as np
-from test_copy import LogisticRegression  # Replace with the actual module name
+import dill
+#from test_copy import LogisticRegression  # Replace with the actual module name
 
+with open('app.pkl', 'rb') as f:
+    LogisticRegression = dill.load(f)
 class TestLogisticRegression(unittest.TestCase):
     def setUp(self):
         self.k = 4  # Number of classes
