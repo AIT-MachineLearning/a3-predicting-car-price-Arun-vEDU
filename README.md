@@ -18,4 +18,6 @@ app.py - This script for dash application.
 
 a3_docker - A file folder with docker image.
 
+.github - a file folder for git action.
+
 .
