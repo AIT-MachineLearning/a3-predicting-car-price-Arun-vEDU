@@ -1,6 +1,6 @@
 name: CI/CD for Car Price Prediction Model A3
 
-# Runs workflow on push or pull request to the main branch
+# Run workflow on push or pull request to the main branch
 on:
   push:
     branches:
