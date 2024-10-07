@@ -16,11 +16,11 @@ jobs:
     steps:
       # Step 1: Checkout the code from GitHub
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       # Step 2: Set up Python environment
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v2
         with:
           python-version: '3.9'
 
@@ -33,7 +33,7 @@ jobs:
       # Step 4: Run unit tests
       - name: Run unit tests
         run: |
-          python -m unittest discover -s . -p "test_model.py"
+          run: pytest test_model.py
 
       # Step 5: If tests pass, proceed with deployment
       - name: Deploy model
