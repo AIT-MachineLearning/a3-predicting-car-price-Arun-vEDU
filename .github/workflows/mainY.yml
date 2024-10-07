@@ -39,8 +39,6 @@ jobs:
       - name: Deploy model
         if: success()
         run: |
-          python app.py  # Adjust this to your deployment script
+          nohup python app.py &  # Run the app in the background
 
       
-
-
